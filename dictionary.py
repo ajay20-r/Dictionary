@@ -33,7 +33,7 @@ def get_meaning(entry):
 	source_code=requests.get(url)
 	plain_text=source_code.text
 	soup=BeautifulSoup(plain_text,features="html5lib")
-	for link in soup.findAll('h3',{'class':'definition'}):
+	for link in soup.findAll('div',{'class':'definition'}):
 		lis.append(link.text)
 	for i in range(len(lis)):
 		lis[i]=lis[i]+"."
