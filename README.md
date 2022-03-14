@@ -1,4 +1,3 @@
 # Dictionary
-
-I've tried to build an application that can fetch all the meanings of an entered word from Vocabulary.com.
-Here I've used the Tkinter module to build my UI. Few other packages used in this application are BeatifulSoup, requests, PIL.
+I attempted to create an application that would retrieve all definitions for a given term from Vocabulary.com.
+To create my User Interface, I used the Tkinter module. BeatifulSoup, requests, and PIL are the other packages I've used in this application.
