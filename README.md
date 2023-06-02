@@ -12,4 +12,4 @@ To run this application, you need to have the following packages installed:
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-
+----------------
